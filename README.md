@@ -6,7 +6,7 @@
 
 ```text
 cifar10-project/
-├── code/                 # 完整项目代码
+├── code/                   # 完整项目代码
 │   ├── main.py
 │   ├── models/
 │   ├── utils.py
@@ -15,8 +15,10 @@ cifar10-project/
 │   ├── checkpoint/         # 模型保存目录（训练后生成）
 │   ├── data/               # CIFAR-10 数据集（自动下载）
 │   └── test_images/        # 外部测试图片
-├── report/               # 项目结果报告
-└── README.md             # 本文件
+├── report/
+│   ├── CIFAR-10 图像分类项目结果报告.pdf     # 项目结果报告
+│   ├── 学习心得及未来规划.pdf                # 学习心得及未来规划
+└── README.md               # 本文件
 ```
 
 
