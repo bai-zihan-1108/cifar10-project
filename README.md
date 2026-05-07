@@ -47,9 +47,9 @@ cd code
 #### 2. 选择要训练的模型
 打开 main.py，找到模型定义部分，修改如下：
 ```
-# 训练 ResNet18（考核要求）
-net = ResNet18()        # ✅ 使用这一行
-# net = SimpleDLA()     # ❌ 注释掉这一行
+# 训练 ResNet18
+net = ResNet18()        #  使用这一行
+# net = SimpleDLA()     #  注释掉这一行
 （如果要训练 SimpleDLA，则反过来注释/取消注释）
 ```
 #### 3. 启动训练
