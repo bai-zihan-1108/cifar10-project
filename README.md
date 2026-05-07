@@ -12,8 +12,8 @@ cifar10-project/
 │   ├── utils.py
 │   ├── test_simpledla.py   # SimpleDLA 外部图片测试脚本
 │   ├── test_resnet18.py    # ResNet18 外部图片测试脚本
-│   ├── checkpoint/         # 模型保存目录（训练后生成）
-│   ├── data/               # CIFAR-10 数据集（自动下载）
+│   ├── checkpoint/         # 训练后自动生成，未提交（文件较大）
+│   ├── data/               # 程序自动下载数据集，未提交（约160MB）
 │   └── test_images/        # 外部测试图片
 ├── report/
 │   ├── CIFAR-10 图像分类项目结果报告.pdf     # 项目结果报告
